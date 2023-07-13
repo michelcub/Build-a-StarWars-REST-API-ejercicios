@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, request, jsonify
-from models import Planet
+from models.index import Planet
 from controller.planet_controller import get, get_planet
 
 

@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, request, jsonify
-from models import Vehicle
+from models.index import Vehicle
 from controller.vehicle_controller import get, get_vehicle
 
 vehicles_routes = Blueprint("vehicles_routes", __name__)

@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, request, jsonify
-from models import User
+from models.index import User
 from controller.user_controller import get, post, get_user_favorites
 user_routes = Blueprint("user_routes", __name__)
 

@@ -1,1 +1,1 @@
-from .db import db
+from utils.db import db
