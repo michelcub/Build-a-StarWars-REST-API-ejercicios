@@ -1,5 +1,5 @@
 import bcrypt
-from models.vehicle import Vehicle
+from models.Vehicle import Vehicle
 from flask import Flask, request, jsonify
 
 def get():

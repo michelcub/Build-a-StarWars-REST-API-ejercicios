@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from models.user import User
-from models.favorites import Favorites
+from models.User import User
+from models.Favorites import Favorites
 from utils import db
 import json
 import bcrypt

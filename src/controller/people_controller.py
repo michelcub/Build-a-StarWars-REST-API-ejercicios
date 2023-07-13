@@ -1,5 +1,5 @@
 import bcrypt
-from models.character import Character
+from models.Character import Character
 from flask import Flask, request, jsonify
 
 def get():

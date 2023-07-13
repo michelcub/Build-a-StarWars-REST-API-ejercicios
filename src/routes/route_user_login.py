@@ -1,5 +1,5 @@
 from flask import Flask, request, Blueprint, jsonify
-from models.user import User
+from models.User import User
 import bcrypt
 from controller.user_login_controller import login
 
