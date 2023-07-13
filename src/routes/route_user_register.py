@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, Blueprint
 import bcrypt
-from models.user import User
+from models.User import User
 
 user_register = Blueprint('user_register', __name__)
 

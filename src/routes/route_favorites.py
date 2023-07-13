@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, request, jsonify
-from models.index import Favorites
+from models import Favorites
 
 
 favorites_routes = Blueprint("favorites_routes", __name__)

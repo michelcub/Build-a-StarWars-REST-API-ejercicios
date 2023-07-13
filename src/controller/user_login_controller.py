@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import bcrypt
-from models.user import User
+from models.User import User
 
 def login():
     username = request.form.get('username')

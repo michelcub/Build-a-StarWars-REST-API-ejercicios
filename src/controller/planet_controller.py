@@ -1,5 +1,5 @@
 import bcrypt
-from models.planet import Planet
+from models.Planet import Planet
 from flask import Flask, jsonify, request
 
 def get():
